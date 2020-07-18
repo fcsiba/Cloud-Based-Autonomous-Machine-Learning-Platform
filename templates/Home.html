@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>Tind ML Demo</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <div class="container justify-content-center">
+    <div class="row justify-content-center">
+      <h1>TindML</h1>
+    </div>
+    <div>
+      <form action="/upload" method="POST" enctype="multipart/form-data" class="form-inline justify-content-center">
+        <div class="form-group row"> <label for="dataset" class="col-sm-3 col-form-label">Upload
+            Dataset</label><br>
+          <div class="col-sm-5"> <input class="form-control-file" name="dataset" accept=".csv" id="dataset" type="file">
+            <input type="text" name="target" class="form-control" id="target_column" placeholder="Enter Target Column Name" style="max-width: 300px;">
+          </div>
+          <div class="col-sm-4"> <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="reset" class="btn btn-secondary">Reset</button> </div>
+        </div>
+      </form>
+    </div> <br>
+    <div> </div>
+    <div> <img class="rounded mx-auto d-block"
+        src="https://news.mit.edu/sites/mit.edu.newsoffice/files/styles/news_article_image_top_slideshow/public/images/2019/MIT-Interactive-ML-01.jpg?itok=1LspXolW"
+        alt="Auto ML" height="Auto" width="Auto"> </div>
+  </div>
+
+
+</body>
+
+</html>
